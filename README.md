@@ -11,7 +11,7 @@ LINUX SERVER SETUP
 No sudo access is needed for the mmap() and madvise() demonstrations.
 You need a C compiler (gcc or clang). strace and pmap are optional tools.
 
-Compile and run:
+Compile and run (copy and paste):
 ```bash
 gcc -std=c11 -Wall -Wextra -O0 mmap_file.c -o mmap_file
 ./mmap_file
